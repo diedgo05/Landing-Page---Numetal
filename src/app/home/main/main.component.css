@@ -11,7 +11,10 @@
     margin-left: 13%;
     font-family: 'Eater', sans-serif; 
 }
-
+.subtitle h3 {
+    margin-left: 3%;
+    font-family: 'Eater', sans-serif; 
+}
   body {
     background-color: #d4abe6; 
     font-family:Georgia, 'Times New Roman', Times, serif
@@ -43,11 +46,18 @@
   }
   
   .imgPrincipal {
-    flex: 0.5; /* La imagen ocupa menos espacio */
+    flex: 0.6; 
   }
   
   .imgPrincipal img {
-    max-width: 100%;
+    margin-top: 20%;
+    max-width: 500px;
     height: auto;
     border-radius: 0.5em;
   }
+
+  .container {
+    display: flex;
+    flex-direction: column; 
+  }
+  
