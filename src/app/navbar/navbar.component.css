@@ -8,7 +8,8 @@ body{
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
-}
+
+    }
 
 nav{
     background-color: white;
@@ -42,5 +43,3 @@ nav a:hover{
 nav li:first-child{
     margin-right:0% ;
 }
-
-  
