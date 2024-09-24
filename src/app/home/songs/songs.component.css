@@ -1,0 +1,42 @@
+.card {
+    border: 0;
+    background-color: hsl(0, 5%, 12%); 
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    justify-content: space-between;
+    border-radius: 0.5em;
+    margin-bottom: 1.5em; /* Espacio entre tarjetas */
+    margin-left: 10%;
+  }
+  
+  .card img {
+    max-width: 50px;
+    margin-right: 1em;
+    border-radius: 0.3em; 
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+  }
+  
+  .cta-section .btn {
+    background-color: #2b0e73; 
+    color: white; 
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    font-size: 0.9em;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background-color: #543a9e; 
+  }
+  
+  .card-info {
+    flex-grow: 1;
+    padding-left: 1em;
+  }
+  
