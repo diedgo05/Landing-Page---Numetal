@@ -10,7 +10,10 @@
     margin-bottom: 1.5em; /* Espacio entre tarjetas */
     margin-left: 14%;
   }
-  
+  .subtitle h2 {
+    margin-left: 13%;
+    font-family: 'Eater', sans-serif; 
+}
   .card img {
     max-width: 50px;
     margin-right: 1em;
