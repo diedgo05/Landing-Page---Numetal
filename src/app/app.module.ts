@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeModule } from './home/home.module';
 import { BandsModule } from './bands/bands.module';
+import { SpecificBandModule } from './specific-band/specific-band.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BandsModule } from './bands/bands.module';
     BrowserModule,
     AppRoutingModule,
     HomeModule,
-    BandsModule
+    BandsModule,
+    SpecificBandModule
   ],
   providers: [],
   bootstrap: [AppComponent]

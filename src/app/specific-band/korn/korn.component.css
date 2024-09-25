@@ -1,0 +1,71 @@
+
+.title h1.num {
+    font-size: 5em;
+    font-family: 'Metal Mania', cursive;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000; 
+    margin-left: 5%;
+  }
+  .title h1.num1 {
+    font-size: 4em;
+    font-family: 'Metal Mania', cursive;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000; 
+    margin-left: 38%;
+  }
+  .subtitle h2 {
+    margin-left: 13%;
+    font-family: 'Eater', sans-serif; 
+}
+.subtitle h3 {
+    margin-left: 13%;
+    font-family: 'Eater', sans-serif; 
+}
+  body {
+    background-color: #d4abe6; 
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+
+  .line1, .line2 {
+    width: 80%;
+    height: 3px;
+    background-color: #e6e6e6;
+    margin: 1em 0;
+    margin-left: 7%;
+    
+  }
+  
+  .flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px; 
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .content {
+    flex: 3; 
+    font-size: 1.3em;
+    line-height: 2.2em;
+
+  }
+  
+  .imgPrincipal {
+    flex: 0.6; 
+  }
+  
+  .imgPrincipal img {
+    margin-top: 20%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 0.5em;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column; 
+  }
+  

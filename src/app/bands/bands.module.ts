@@ -8,7 +8,7 @@ import { BandsPComponent } from './bands-p/bands-p.component';
 @NgModule({
   declarations: [
     CardsComponent,
-    BandsPComponent
+    BandsPComponent,
   ],
   imports: [
     CommonModule
