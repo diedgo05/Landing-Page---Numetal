@@ -1,0 +1,17 @@
+
+.title h1.num {
+    font-size: 5em;
+    font-family: 'Metal Mania', cursive;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000; 
+    margin-left: 5%;
+  }
+  .line1 {
+    width: 80%;
+    height: 3px;
+    background-color: #e6e6e6;
+    margin: 1em 0;
+    margin-left: 7%;
+    
+  }
